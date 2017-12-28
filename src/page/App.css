@@ -1,0 +1,141 @@
+#app-aside {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    box-shadow: none;
+    background: #222;
+    border-right: 1px solid #eee;
+}
+.aside-container {
+    box-sizing: border-box;
+    width: 220px;
+    height: 100%;
+    padding: 25px 15px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    background: #fff;
+}
+/* 左边栏上面的商铺信息 */
+.aside-container .store-info{
+    display: flex;
+    width: 100%;
+    height: 56px;
+    border-bottom: 1px solid #eee;
+}
+.aside-container .pic {
+    width: 45px;
+    height: 45px;
+}
+.aside-container .detail {
+    flex: 1;
+    padding-left: 10px;
+    font-size: 14px;
+}
+.aside-container .detail .title {
+    width: 115px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-bottom: 10px;
+}
+.aside-container .detail .tag div{
+    display: inline-block;
+}
+.aside-container .tag .auth {
+    box-sizing: border-box;
+    min-width: 40px;
+    height: 20px;
+    line-height: 20px;
+    padding: 0 5px;
+    font-size: 12px;
+    vertical-align: middle;
+    text-align: center;
+    border-radius: 1px;
+    color: #fff;
+    border: 0;
+    background-color: #bbb;
+    margin-right: 5px
+}
+.aside-container .tag .type {
+    box-sizing: border-box;
+    min-width: 40px;
+    height: 20px;
+    line-height: 20px;
+    padding: 0 5px;
+    font-size: 12px;
+    vertical-align: middle;
+    text-align: center;
+    border-radius: 1px;
+    color: #fff;
+    border: 0;
+    background-color: #e74c75;
+}
+.aside-userinfo {
+    position: fixed;
+    bottom: 0;
+    left: 15px;
+    box-sizing: border-box;
+    width: 170px;
+    height: 52px;
+    font-size: 12px;
+    border-top: 1px solid #eee;
+}
+
+/* 左边栏中的导航 */
+.aside-wrapper{
+    width: 200px;
+    height: 100%;
+    overflow-x: hidden;
+}
+.aside-container .store-nav {
+    width: 100%;
+    min-height: 600px;
+    margin-top: 20px;
+}
+.aside-container .store-nav ul {
+    list-style: none;
+}
+.aside-container .store-nav li {
+    position: relative;
+    height: 45px;
+    line-height: 36px;
+    cursor: pointer;
+    padding-left: 15px;
+    margin-bottom: 10px;
+}
+.aside-container li .icon {
+    font-size: 14px;
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    line-height: 18px;
+    margin-top: 13px;
+    color: black;
+}
+.aside-container .store-nav li a {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0;
+    bottom: 0;
+    color: #666;
+    display: inline-block;
+    font-size: 14px;
+    padding-top: 4px;
+    padding-left: 43px;
+}
+.aside-container .store-nav a:hover, .aside-container .store-nav a.active {
+    background: rgba(0, 0, 0, .03);
+}
+
+/* 左边栏下面的个人信息 */
+
+
+
+/* 右侧大容器 */
+#app-container {
+    background: #fff;
+    width: auto;
+    padding-bottom: 50px;
+}

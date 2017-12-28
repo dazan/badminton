@@ -1,0 +1,26 @@
+.setting-container .filter {
+    box-sizing: border-box;
+    height: 60px;
+    padding: 15px 30px;
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #e5e5e5;
+}
+.setting-container .filter div{
+    display: inline-block;
+}
+.setting-container .place {
+    width: 200px;
+    margin-right: 30px
+}
+.setting-container .phone {
+    width: 200px;
+}
+.setting-container .search-btn {
+    margin-left: 20px;
+}
+.setting-container .search-wrapper {
+    float: left;
+}
+.setting-container .btn-wrapper {
+    float: right;
+}

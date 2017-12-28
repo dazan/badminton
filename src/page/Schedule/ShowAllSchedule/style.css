@@ -1,0 +1,50 @@
+.schedule-container .filter {
+    box-sizing: border-box;
+    height: 95px;
+    padding: 15px 30px;
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #e5e5e5;
+    text-align: center;
+    position: relative;
+}
+.schedule-container .filter div{
+    display: inline-block;
+}
+
+/* .schedule-container .place {
+    width: 200px;
+    margin-right: 30px
+}
+.schedule-container .phone {
+    width: 200px;
+}
+.schedule-container .search-btn {
+    margin-left: 20px;
+}
+.schedule-container .search-wrapper {
+    float: left;
+}
+.schedule-container .btn-wrapper {
+    float: right;
+} */
+.schedule-container .zent-select {
+    margin-right: 0;
+}
+.schedule-container .week-select {
+    position: absolute;
+    bottom: 0;
+    left: center;
+    margin-left: -138px;
+}
+.schedule-container .card {
+    position: absolute;
+    top: 15px;
+    left: 30px;
+} 
+
+.schedule-container .card .card-input {
+    margin-right: 20px;
+}
+.schedule-container .add-schedule {
+    float: right;
+}

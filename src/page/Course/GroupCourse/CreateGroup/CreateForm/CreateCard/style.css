@@ -1,0 +1,39 @@
+/* 原价和优惠价的覆盖样式 */
+.new-price-input .zent-form__controls {
+    
+  }
+  .new-price-input, .old-price-input {
+      display: inline-block;
+  }
+  .new-price-input .zent-input {
+      width: 30px;
+  }
+  .new-price-input .zent-form__help-desc {
+      float: left;
+      width: 100px;
+      font-size: 12px;
+  }
+  .old-price-input .zent-form__control-label {
+      display: none !important;
+  }
+  .old-price-input .zent-input{
+      width: 30px;
+  }
+  /* 课时卡的覆盖样式 */
+  .card-input .zent-form__control-label {
+      display: none !important;
+  }
+  .card-input .zent-form__controls {
+      margin-left: 0 !important;
+  }
+
+/* 单元格的input样式 */
+.cart-cell .cart-name-input {
+    width: 70px;
+}
+.cart-cell .cart-detail-input {
+    width: 100px;
+}
+.cart-cell .zent-number-input-wrapper .zent-input {
+    width: 0px;
+}

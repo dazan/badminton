@@ -1,0 +1,46 @@
+.date-li {
+    padding-bottom: 45px;
+}
+.date-li .time-left, .schedule .time-right {
+    position: relative;
+    display: inline-block;
+}
+/* 编辑时的样式 */
+.date-li .time-edit {
+    color: blue;
+    font-weight: 700;
+}
+.date-li .time-mid {
+    margin: 0 10px;
+}
+.date-li .time-show {
+    font-size: 12px;
+    cursor: pointer;
+}
+/* timepicker的定位 */
+.date-li .time-picker {
+    position: absolute;
+    top: 20px;
+    left: 0;
+}
+.date-li .date-wrapper {
+    float: left;
+}
+/* 覆盖timepicker的样式 */
+.ant-time-picker-panel-select {
+    width: 50px;
+}
+/* 按钮样式 */
+.date-li .delete-btn, .date-li .time-btn {
+    cursor: pointer;
+    font-size: 12px;
+    color: red;
+    margin-left: 10px;
+}
+.date-li .delete-btn-hidden {
+    display: none;
+}
+.date-li .time-btn {
+    display: inline-block;
+    color: green;
+}

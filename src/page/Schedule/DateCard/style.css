@@ -1,0 +1,37 @@
+.schedule {
+    margin: 20px;
+    width: 400px;
+}
+.schedule .schedule-top {
+    font-size: 14px;
+    margin-bottom: 7px;
+}
+.schedule .schedule-top span.time {
+    margin: 0 5px;
+}
+.schedule .plus-btn {
+    position: relative;
+    margin-left: 30px;
+    padding-left: 30px;
+}
+.schedule .plus-btn .plus-icon {
+    position: absolute;
+    top: 9px;
+    left: 9px;
+    margin-right: 4px;
+}
+.schedule .schedule-bottom {
+    padding: 30px;
+    border: 1px solid #ddd;
+}
+.schedule .schedule-bottom .date-list > li:last-child {
+    padding-bottom: 30px;
+}
+
+.schedule-wrapper {
+    margin: 30px 0 0 30px;
+}
+
+.schedule-wrapper .schedule-submit, .schedule-wrapper .schedule-select {
+    margin-left: 20px;
+}

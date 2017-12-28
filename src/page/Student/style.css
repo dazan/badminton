@@ -1,0 +1,29 @@
+.student .filter {
+    box-sizing: border-box;
+    height: 60px;
+    padding: 15px 30px;
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #e5e5e5;
+}
+.student .filter div{
+    display: inline-block;
+}
+.student .place {
+    width: 200px;
+    margin-right: 30px
+}
+.student .phone {
+    width: 200px;
+}
+.student .search-btn {
+    margin-left: 20px;
+}
+.student .search-wrapper {
+    float: left;
+}
+.student .btn-wrapper {
+    float: right;
+}
+
+
+

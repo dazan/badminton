@@ -1,0 +1,15 @@
+ueditor.config.js的修改:
+
+注释掉： 33行
+        250行 改为false
+
+ueditor.all.js的修改:
+
+注释掉: 16880的fiximgclick插件代码全注释掉
+
+新增uploadImage.js文件:
+
+增加了一个图片上传按钮，原理是设置一个隐藏的file表单元素
+
+themes/iframe.css下:
+max-width: 让图片自适应
